@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marko Zivanic - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Marko Zivanic</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a 19 y/o aspiring developer looking for a company to hire me! I live in Belgrade, Serbia. I am willing to learn and improve my skills.</p>
+    </section> 
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project-container">
+            <div class="project-box" onclick="openProject('index')">
+                <h3>Personal Website(In Progress)</h3>
+                <p>This Personal Website is in development!</p>
+            </div>
+            <div class="project-box" onclick="openProject('project1')">
+                <h3>8-bit breadboard Computer(In Progress)</h3>
+                <p>I am building a 8-bit computer entirely on breadboards!</p>
+            </div>
+            <!-- Add more project boxes as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: marko.bussines.official@gmail.com</p>
+        <!-- Add more contact information as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Marko Zivanic. All rights reserved.</p>
+    </footer>
+
+
+    <script>
+        function openProject(projectName) {
+            // Add logic to open the project or link to the project page
+            window.open(projectName + '.html');
+        }
+    </script>
+
+</body>
+</html>
