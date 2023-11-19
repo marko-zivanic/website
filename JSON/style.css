@@ -1,0 +1,10 @@
+#btn{
+	padding: 25px;
+	font-size: 22px;
+	color: white;
+	background-color: darkblue;
+	border-radius: 50px;
+}
+.hidden{
+	display: none;
+}
