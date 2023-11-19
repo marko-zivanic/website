@@ -93,3 +93,13 @@ footer {
 .project-box:hover {
     background-color: #dfe6e9;
 }
+xmp{
+    border: dotted;
+    border-color: black;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 10px;
+}
+p a{
+    color: #149414;
+}
