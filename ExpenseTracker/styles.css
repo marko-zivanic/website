@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.input-section{
+    padding: 2vh 10vh;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+#category-select{
+    padding: 1vh;
+    border: none;
+    border-radius: 1.5vh;
+    background-color: black;
+    color: white;
+}
+#category-select:hover{
+    background-color: white;
+    color: black;
+}
+#add-btn{
+    padding: 1vh;
+    border: none;
+    border-radius: 1.5vh;
+    background-color: black;
+    color: white;
+}
+#add-btn:hover{
+    background-color: white;
+    color: black;
+}
+#table ul{
+    list-style: none;
+    margin: 4vh;
+    justify-content: space-between;
+    display: flex;
+}
+.del-btn{
+    padding: 1vh;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 1.5vh;
+}
+.del-btn:hover{
+    background-color: white;
+    color: black;
+}
+#total{
+    list-style: none;
+    margin: 4vh;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 70vh;
+    background-color: black;
+    color: white;
+    border-radius: 1.5vh;
+    padding: 1.5vh;
+}
+#total-price
