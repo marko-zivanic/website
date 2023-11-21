@@ -103,3 +103,10 @@ xmp{
 p a{
     color: #149414;
 }
+.screenshots{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
